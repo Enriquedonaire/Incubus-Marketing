@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code, Globe, Smartphone, Wrench, Mail, Cloud } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -10,11 +9,6 @@ export function DisenoWeb() {
   });
 
   const [ref2, inView2] = useInView({
-    triggerOnce: true,
-    threshold: 0.1
-  });
-
-  const [ref3, inView3] = useInView({
     triggerOnce: true,
     threshold: 0.1
   });

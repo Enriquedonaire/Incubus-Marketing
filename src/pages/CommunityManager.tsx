@@ -1,5 +1,4 @@
-import React from 'react';
-import { Users, TrendingUp, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Instagram, Facebook, Youtube } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 

@@ -42,15 +42,15 @@ export function Contacto() {
           <div className="space-y-6">
             <div className="flex items-center">
               <Mail className="w-6 h-6 mr-4 text-blue-500" />
-              <span>contacto@wodes.com</span>
+              <span>contacto@incubus.com</span>
             </div>
             <div className="flex items-center">
               <Phone className="w-6 h-6 mr-4 text-blue-500" />
-              <span>+34 900 123 456</span>
+              <span>+34557891432</span>
             </div>
             <div className="flex items-center">
               <MapPin className="w-6 h-6 mr-4 text-blue-500" />
-              <span>Calle Principal 123, Madrid, España</span>
+              <span>Calle San luis 16, Granada, España</span>
             </div>
           </div>
         </div>
