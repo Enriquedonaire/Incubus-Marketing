@@ -62,7 +62,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 ">
       <div className="flex items-center justify-between">
         <Link to="/" className="text-2xl font-bold z-50">
-        <p className="italic">INCUBUS</p>
+        <p className="italic">INCUBUS </p>
         </Link>
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
@@ -81,8 +81,6 @@ export function Navbar() {
               Contacto
             </Link>
           </div>
-
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden z-50 text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -90,8 +88,6 @@ export function Navbar() {
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-
-        {/* Mobile Menu */}
         <AnimatePresence>
           {isMenuOpen && (
             <motion.div

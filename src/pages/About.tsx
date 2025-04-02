@@ -4,7 +4,6 @@ import { Users, Target, Lightbulb, Trophy } from 'lucide-react';
 export function About() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-black via-blue-950 to-black">
-      {/* Hero Section */}
       <section className="pt-32 pb-20">
         <div className="container mx-auto px-6">
           <motion.div
@@ -23,8 +22,6 @@ export function About() {
           </motion.div>
         </div>
       </section>
-
-      {/* Values Section */}
       <section className="py-20">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -65,8 +62,6 @@ export function About() {
           </div>
         </div>
       </section>
-
-      {/* Team Section */}
       <section className="py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">Nuestro Equipo</h2>
