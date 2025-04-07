@@ -110,7 +110,7 @@ export function Contacto() {
             </div>
             <div className="flex items-center">
               <MapPin className="w-6 h-6 mr-4 text-blue-500" />
-              <span>Calle San Luis 16, Granada, España</span>
+              <span>Carrer de Casp 16, Barcelona, España</span>
             </div>
           </div>
         </div>
